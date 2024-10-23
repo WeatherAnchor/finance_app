@@ -5,7 +5,7 @@ import yfinance as yf
 import matplotlib as pyplot
 import pandas as pd
 
-st.title("STOCK PRICE DASHBOARD")
+st.title("FINANCE TEST DASHBOARD")
 with st.sidebar:
   ticker = st.text_input('Stock ticker', 'MSFT')
   col1, col2 = st.columns(2)
